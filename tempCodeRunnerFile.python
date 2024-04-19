@@ -1,0 +1,18 @@
+def calculate_chocolates(money, price, wrappers, choco, max_visit):
+    # Simplified logic to demonstrate the concept
+    total_chocolates = money // price
+    remaining_wrappers = money % price
+    return total_chocolates, remaining_wrappers
+
+# Adjust the parameters to achieve the desired output
+money = 40 # Initial money
+price = 1 # Price per chocolate
+wrappers = 3 # Minimum wrappers required for exchange
+choco = 1 # Number of chocolates for wrappers exchange
+max_visit = 1 # Maximum number of visits to the shop
+
+# Call the function with adjusted parameters
+total_chocolates, remaining_wrappers = calculate_chocolates(money, price, wrappers, choco, max_visit)
+
+# Print the result
+print(f"{total_chocolates},{remaining_wrappers}")
